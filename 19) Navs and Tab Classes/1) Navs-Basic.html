@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Nav and Tabs</title>
+	<link rel="stylesheet" type="text/css" href="E:\Soumodeep 1\6) BootStrap\bootstrap.css">
+	<link rel="stylesheet" href="E:\Soumodeep 1\6) BootStrap\6) Horizontal Alignment\Style.css">
+
+	<style type="text/css">
+		.container-fluid{
+			background-color: black;
+			border: 3px solid green;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="container-fluid">
+		<div class="row">
+<!-- ==================================================================================== -->
+			<div class="col-12 mt-2">
+				<h3 class="text-center text-info"> Nav and Tab Classes</h3>
+				<hr style="padding: 4px; background-color: black;">
+			</div>
+<!-- ==================================================================================== -->
+<!-- ==================================================================================== -->
+			<div class="col-12 mt-2">
+				<h4 class="text-center text-warning">Using ul Tag</h4>
+				<ul class="nav">
+					<li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">About</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">Login</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">Info</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+				</ul>
+				<br>
+
+<!-- ==================================================================================== -->
+				<ul class="nav justify-content-center">
+					<li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">About</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">Login</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">Info</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+				</ul>
+				<br>
+
+<!-- ==================================================================================== -->
+				<ul class="nav justify-content-end">
+					<li class="nav-item "><a class="nav-link active" href="#">Home</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">About</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">Login</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">Info</a></li>
+					<li class="nav-item"><a class="nav-link disabled" href="#">Contact Us</a></li>
+				</ul>
+				<br>
+
+<!-- ==================================================================================== -->
+				<ul class="nav flex-column">
+					<li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">About</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">Login</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">Info</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+				</ul>
+				<br>
+
+<!-- ==================================================================================== -->
+				<ul class="nav nav-tabs">
+					<li class="nav-item "><a class="nav-link active" href="#">Home</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">About</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">Login</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">Info</a></li>
+					<li class="nav-item"><a class="nav-link disabled" href="#">Contact Us(disabled)</a></li>
+				</ul>
+				<br>
+
+<!-- ==================================================================================== -->
+				<ul class="nav nav-pills">
+				  <li class="nav-item"><a class="nav-link active" href="#">Active</a></li>
+				  <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+				  <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+				  <li class="nav-item"><a class="nav-link active" href="#">Active</a></li>
+				  <li class="nav-item"><a class="nav-link disabled" href="#">Disabled</a></li>
+				</ul>
+				<br>
+
+<!-- ==================================================================================== -->
+  				<ul class="nav nav-pills nav-justified">
+					<li class="nav-item"><a class="nav-link active" href="#">Active</a></li>
+    				<li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+    				<li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+    				<li class="nav-item"><a class="nav-link disabled" href="#">Disabled</a></li>
+  				</ul>
+  				<br>
+
+<!-- ==================================================================================== -->
+  				<ul class="nav nav-pills">
+				    <li class="nav-item"><a class="nav-link active" href="#">Active</a></li>
+				    <li class="nav-item dropdown">
+				    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Dropdown</a>
+					    <ul class="dropdown-menu">
+					       <li><a class="dropdown-item" href="#">Link 1</a></li>
+					       <li><a class="dropdown-item" href="#">Link 2</a></li>
+					       <li><a class="dropdown-item" href="#">Link 3</a></li>
+					    </ul>	
+				    </li>
+				    <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+				    <li class="nav-item"><a class="nav-link disabled" href="#">Disabled</a></li>
+				</ul>
+				<br>
+
+
+			</div>
+
+<!-- ==================================================================================== -->
+<!-- ==================================================================================== -->
+			<hr style="padding: 4px; background-color: black;">
+			<div class="col-12 mt-3">
+				<h4 class="text-center text-danger">Using nav Tag</h4>
+				<nav class="nav">
+					<a class="nav-link" href="#">Home</a>
+					<a class="nav-link" href="#">About</a>
+					<a class="nav-link" href="#">Login</a>
+					<a class="nav-link" href="#">Info</a>
+					<a class="nav-link" href="#">Contact Us</a>
+				</nav>
+				<br>
+
+<!-- ==================================================================================== -->				
+				<nav class="nav justify-content-center">
+					<a class="nav-link" href="#">Home</a>
+					<a class="nav-link" href="#">About</a>
+					<a class="nav-link" href="#">Login</a>
+					<a class="nav-link" href="#">Info</a>
+					<a class="nav-link" href="#">Contact Us</a>
+				</nav>
+				<br>
+
+<!-- ==================================================================================== -->
+				<nav class="nav justify-content-end">
+					<li class="nav-item "><a class="nav-link active" href="#">Home</a></li>
+					<a class="nav-link" href="#">About</a>
+					<a class="nav-link" href="#">Login</a>
+					<a class="nav-link" href="#">Info</a>
+					<a class="nav-link disabled" href="#">Contact Us</a>
+				</nav>
+				<br>
+
+<!-- ==================================================================================== -->
+				<nav class="nav flex-column">
+					<a class="nav-link" href="#">Home</a>
+					<a class="nav-link" href="#">About</a>
+					<a class="nav-link" href="#">Login</a>
+					<a class="nav-link" href="#">Info</a>
+					<a class="nav-link" href="#">Contact Us</a>
+				</nav>
+				<br>
+
+<!-- ==================================================================================== -->
+				<nav class="nav nav-tabs">
+					<li class="nav-item "><a class="nav-link active" href="#">Home</a></li>
+					<a class="nav-link" href="#">About</a>
+					<a class="nav-link" href="#">Login</a>
+					<a class="nav-link" href="#">Info</a>
+					<a class="nav-link disabled" href="#">Contact Us(disabled)</a>
+				</nav>
+				<br>
+
+<!-- ==================================================================================== -->
+				<nav class="nav nav-pills">
+				  <a class="nav-link active" href="#">Active</a>
+				  <a class="nav-link" href="#">Link</a>
+				  <a class="nav-link" href="#">Link</a>
+				  <a class="nav-link active" href="#">Active</a>
+				  <a class="nav-link disabled" href="#">Disabled</a>
+				</nav>
+				<br>
+
+<!-- ==================================================================================== -->
+				<nav class="nav nav-pills nav-justified">
+					<a class="nav-link active" href="#">Active</a>
+    				<a class="nav-link" href="#">Link</a>
+    				<a class="nav-link" href="#">Link</a>
+    				<a class="nav-link disabled" href="#">Disabled</a>
+  				</nav>
+  				<br>
+
+<!-- ==================================================================================== -->
+  				<nav class="nav nav-pills">
+				    <a class="nav-link active" href="#">Active</a>
+				    <li class="nav-item dropdown">
+				    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Dropdown</a>
+					    <nav class="dropdown-menu">
+					       <li><a class="dropdown-item" href="#">Link 1</a></li>
+					       <li><a class="dropdown-item" href="#">Link 2</a></li>
+					       <li><a class="dropdown-item" href="#">Link 3</a></li>
+					    </nav>	
+				    </li>
+				    <a class="nav-link" href="#">Link</a>
+				    <a class="nav-link disabled" href="#">Disabled</a>
+				</nav>
+				<br>
+			
+
+<!-- ==================================================================================== -->
+
+			<!-- Using nav Tabs -->
+			<nav class="nav nav-tabs" >
+			      <a class="nav-link active" data-bs-toggle="tab" href="#home">Home</a>
+			      <a class="nav-link" data-bs-toggle="tab" href="#menu1">Menu 1</a>
+			      <a class="nav-link" data-bs-toggle="tab" href="#menu2">Menu 2</a>
+			</nav>
+
+			  <!-- Tab panes -->
+			  <div class="tab-content my-2">
+			    <div id="home" class=" tab-pane active"><br>
+			      <h3 class="text-white">HOME</h3>
+			      <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			    </div>
+			    <div id="menu1" class=" tab-pane fade"><br>
+			      <h3 class="text-white">Menu 1</h3>
+			      <p class="text-white">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			    </div>
+			    <div id="menu2" class=" tab-pane fade"><br>
+			      <h3 class="text-white">Menu 2</h3>
+			      <p class="text-white">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+			    </div>
+			  </div>
+			  <br><br>
+
+<!-- ==================================================================================== -->
+
+	<!-- using Nav pills -->
+			<nav class="nav nav-pills" >
+			      <a class="nav-link active" data-bs-toggle="pill" href="#homes">Homes</a>
+			      <a class="nav-link" data-bs-toggle="pill" href="#menus1">Menus 1</a>
+			      <a class="nav-link" data-bs-toggle="pill" href="#menus2">Menus 2</a>
+			</nav>
+
+			  <!-- Tab panes -->
+			  <div class="tab-content my-2">
+			    <div id="homes" class=" tab-pane active"><br>
+			      <h3 class="text-white">HOMES</h3>
+			      <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			    </div>
+			    <div id="menus1" class=" tab-pane fade"><br>
+			      <h3 class="text-white">Menus 1</h3>
+			      <p class="text-white">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			    </div>
+			    <div id="menus2" class=" tab-pane fade"><br>
+			      <h3 class="text-white">Menus 2</h3>
+			      <p class="text-white">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+			    </div>
+			  </div>
+			  <br><br>
+
+			</div>	<!--col ending -->
+		
+		</div>		<!--row ending -->
+	</div>
+
+	<script src="E:\Soumodeep 1\6) BootStrap\bootstrap.js"></script>
+	<script src="E:\Soumodeep 1\6) BootStrap\bootstrap-5.0.2-dist\js\bootstrap.bundle.js"></script>
+
+</body>
+</html>

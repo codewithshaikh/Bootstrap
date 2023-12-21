@@ -1,0 +1,59 @@
+.container{
+    
+    border: 4px solid green;
+}
+
+.row{
+
+    border: 3px solid red;
+}
+
+.Demo1{
+    color: white;
+    background-color: blue;
+}
+
+.Demo2{
+
+    background-color: black;
+    color: white;
+}
+
+.Demo3{
+    background-color: cyan;
+}
+
+.Demo4{
+    color: white;
+    background-color: rgb(111, 0, 255);
+}
+
+.Demo5{
+
+    background-color: pink;
+}
+
+.Demo6{
+
+    
+    background-color:greenyellow;
+}
+
+.Demo7{
+
+    color: white;
+    background-color: orange
+}
+
+.Demo8{
+    min-height: 250px;
+    color: white;
+    background-color:orangered;
+}
+
+.Demo9{
+    min-height: 250px;
+    color: white;
+    background-color:rosybrown ;
+}
+

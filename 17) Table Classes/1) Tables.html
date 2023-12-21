@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tables Classes</title>
+
+	<link rel="stylesheet" type="text/css" href="E:\Soumodeep 1\6) BootStrap\bootstrap.css">
+	<link rel="stylesheet" href="E:\Soumodeep 1\6) BootStrap\6) Horizontal Alignment\Style.css">
+</head>
+<body>
+
+	<div class="container">
+		<div class="row">
+
+			<div class="col-12 mt-5">
+				<h3 class="text-danger text-center">Normal Table</h3>
+				<table class="table">
+					<thead>
+				    <tr>
+				      <th >#</th>
+				      <th >First</th>
+				      <th >Last</th>
+				      <th >Handle</th>
+				    </tr>
+				 </thead>
+				  <tbody>  <!--  use to draw the black line  -->
+				    <tr>
+				      <th>1</th>
+				      <td>Mark</td>
+				      <td>Otto</td>
+				      <td>@mdo</td>
+				    </tr>
+				    <tr>
+				      <th>2</th>
+				      <td>Jacob</td>
+				      <td>Thornton</td>
+				      <td>@fat</td>
+				    </tr>
+				    <tr>
+				      <th>3</th>
+				      <td>Larry the Bird</td>
+				      <td>Hello World</td>
+				      <td>@twitter</td>
+				    </tr>
+				  </tbody>
+				</table>
+			</div>
+
+
+			<div class="col-12 py-3">
+				<h3 class="text-danger text-center">Rows and columns Colour</h3>
+				<table class="table" border="2">
+					<tr class="table-primary">
+						<td class="table-success">Item-1</td>
+						<td class="table-danger">Item-2</td>
+						<td class="table-warning">Item-3</td>
+						<td class="table-info">Item-4</td>
+						<td class="table-dark">Item-5</td>
+						<td class="table-light">Item-6</td>
+					</tr>
+					<tr class="table-secondary">
+						<td class="table-info">Item-6</td>
+						<td class="table-dark">Item-5</td>
+						<td class="table-light">Item-4</td>
+						<td class="table-warning">Item-3</td>
+						<td class="table-danger">Item-2</td>
+						<td class="table-success">Item-1</td>
+					</tr>
+				</table>
+			</div>
+			
+
+
+			<div class="col-12 mt-5">
+				<h3 class="text-danger text-center">Table Striped(Rows Coloured grey alternate )</h3>
+				<table class="table table-striped">
+					<thead class="table-dark">   <!-- Makes table head Dark / Coloured -->
+				    <tr>
+				      <th >#</th>
+				      <th >First</th>
+				      <th >Last</th>
+				      <th >Handle</th>
+				    </tr>
+				 </thead>
+				  <tbody> 
+				    <tr>
+				      <th>1</th>
+				      <td>Mark</td>
+				      <td>Otto</td>
+				      <td>@mdo</td>
+				    </tr>
+				    <tr>
+				      <th>2</th>
+				      <td>Jacob</td>
+				      <td>Thornton</td>
+				      <td>@fat</td>
+				    </tr>
+				    <tr>
+				      <th>3</th>
+				      <td>Larry the Bird</td>
+				      <td>Hello World</td>
+				      <td>@twitter</td>
+				    </tr>
+				  </tbody>
+				</table>
+			</div>
+			
+
+			<div class="col-12 mt-5">
+				<h3 class="text-danger text-center">Table hover(hover any row)</h3>
+				<table class="table table-hover">
+					<thead>
+				    <tr>
+				      <th >#</th>
+				      <th >First</th>
+				      <th >Last</th>
+				      <th >Handle</th>
+				    </tr>
+				 </thead>
+				  <tbody>  
+				    <tr>
+				      <th>1</th>
+				      <td>Mark</td>
+				      <td>Otto</td>
+				      <td>@mdo</td>
+				    </tr>
+				    <tr>
+				      <th>2</th>
+				      <td>Jacob</td>
+				      <td>Thornton</td>
+				      <td>@fat</td>
+				    </tr>
+				    <tr>
+				      <th>3</th>
+				      <td>Larry the Bird</td>
+				      <td>Hello World</td>
+				      <td>@twitter</td>
+				    </tr>
+				  </tbody>
+				</table>
+			</div>
+			
+
+			<div class="col-12 mt-5">
+				<h3 class="text-danger text-center">Table active in td(active any row)</h3>
+				<table class="table">
+					<thead>
+				    <tr>
+				      <th class="table-active">#</th>
+				      <th >First</th>
+				      <th class="table-active">Last</th>
+				      <th >Handle</th>
+				    </tr>
+				 </thead>
+				  <tbody>  
+				    <tr  class="table-active">
+				      <th>1</th>
+				      <td>Mark</td>
+				      <td class="table-active">Otto</td>
+				      <td>@mdo</td>
+				    </tr>
+				    <tr>
+				      <th>2</th>
+				      <td class="table-active">Jacob</td>
+				      <td>Thornton</td>
+				      <td class="table-active">@fat</td>
+				    </tr>
+				    <tr>
+				      <th class="table-active">3</th>
+				      <td>Larry the Bird</td>
+				      <td class="table-active">Hello World</td>
+				      <td>@twitter</td>
+				    </tr>
+				  </tbody>
+				</table>
+			</div>
+
+			<div class="col-12 mt-5">
+				<h3 class="text-danger text-center">Table-sm(Table size Small)</h3>
+				<table class="table table-sm">
+					<thead>
+				    <tr>
+				      <th>#</th>
+				      <th >First</th>
+				      <th>Last</th>
+				      <th >Handle</th>
+				    </tr>
+				 </thead>
+				  <tbody>  
+				    <tr >
+				      <th>1</th>
+				      <td>Mark</td>
+				      <td>Otto</td>
+				      <td>@mdo</td>
+				    </tr>
+				    <tr>
+				      <th>2</th>
+				      <td>Jacob</td>
+				      <td>Thornton</td>
+				      <td>@fat</td>
+				    </tr>
+				  </tbody>
+				</table>
+			</div>
+
+			<div class="col-12 mt-5">
+				<h3 class="text-danger text-center">Table bordered with colours</h3>
+				<table class="table table-bordered border-success table-sm">
+					<thead>
+				    <tr>
+				      <th class="table-active">#</th>
+				      <th >First</th>
+				      <th class="table-active">Last</th>
+				      <th >Handle</th>
+				    </tr>
+				 </thead>
+				  <tbody>  
+				    <tr  class="table-active">
+				      <th>1</th>
+				      <td>Mark</td>
+				      <td class="table-active">Otto</td>
+				      <td>@mdo</td>
+				    </tr>
+				    <tr>
+				      <th>2</th>
+				      <td class="table-active">Jacob</td>
+				      <td>Thornton</td>
+				      <td class="table-active">@fat</td>
+				    </tr>
+				    <tr>
+				      <th class="table-active">3</th>
+				      <td>Larry the Bird</td>
+				      <td class="table-active">Hello World</td>
+				      <td>@twitter</td>
+				    </tr>
+				  </tbody>
+				</table>
+			</div>
+
+			<div class="col-12 mt-5">
+				<h3 class="text-danger text-center">Table borderless</h3>
+				<table class="table table-borderless table-sm">
+					<thead>
+				    <tr>
+				      <th>#</th>
+				      <th >First</th>
+				      <th>Last</th>
+				      <th >Handle</th>
+				    </tr>
+				 </thead>
+				  <tbody>  
+				    <tr >
+				      <th>1</th>
+				      <td>Mark</td>
+				      <td>Otto</td>
+				      <td>@mdo</td>
+				    </tr>
+				    <tr>
+				      <th>2</th>
+				      <td>Jacob</td>
+				      <td>Thornton</td>
+				      <td>@fat</td>
+				    </tr>
+				    </tr>
+				  </tbody>
+				</table>
+			</div>
+
+			
+
+			<div class="col-12 mt-5">
+				<h3 class="text-danger text-center">Table-responsive(it adds Scrollbar when table is big in horizontal)</h3>
+				<h3 class="text-success text-center">Table-responsive(-sm , -md , -lg , -xl , -xxl )</h3>
+				<div class="table-responsive">
+				    <table class="table table-bordered border-warning">
+				      <thead>
+				        <tr>
+				          <th>#</th>
+				          <th>Firstname</th>
+				          <th>Lastname</th>
+				          <th>Age</th>
+				          <th>City</th>
+				          <th>Country</th>
+				          <th>Sex</th>
+				          <th>Example</th>
+				          <th>Example</th>
+				          <th>Example</th>
+				          <th>Example</th>
+				          <th>Example</th>
+				          <th>Example</th>
+				          <th>Example</th>
+				          <th>Example</th>
+				          <th>Example</th>
+				          <th>Example</th>
+				          <th>Example</th>
+				          <th>Example</th>
+				        </tr>
+				      </thead>
+				      <tbody>
+				        <tr>
+				          <td>1</td>
+				          <td>Anna</td>
+				          <td>Pitt</td>
+				          <td>35</td>
+				          <td>New York</td>
+				          <td>USA</td>
+				          <td>Female</td>
+				          <td>Yes</td>
+				          <td>Yes</td>
+				          <td>Yes</td>
+				          <td>Yes</td>
+				          <td>Yes</td>
+				          <td>Yes</td>
+				          <td>Yes</td>
+				          <td>Yes</td>
+				          <td>Yes</td>
+				          <td>Yes</td>
+				          <td>Yes</td>
+				          <td>Yes</td>
+				        </tr>
+				      </tbody>
+				    </table>
+				  </div>
+			</div>
+
+			<div class="col-12 mt-5">
+				<h3 class="text-danger text-center">Table with footer</h3>
+				<table class="table table-sm">
+					<thead>
+				    <tr>
+				      <th>#</th>
+				      <th >First</th>
+				      <th>Last</th>
+				      <th >Handle</th>
+				    </tr>
+				 </thead>
+				  <tbody>  
+				    <tr >
+				      <th>1</th>
+				      <td>Mark</td>
+				      <td>Otto</td>
+				      <td>@mdo</td>
+				    </tr>
+				    <tr>
+				      <th>2</th>
+				      <td>Jacob</td>
+				      <td>Thornton</td>
+				      <td>@fat</td>
+				    </tr>
+				  </tbody>
+				  <tfoot>
+				  	<th>Footer</th>
+				    <td>Footer</td>
+				    <td>Footer</td>
+				    <td>Footer</td>
+				  </tfoot>
+				</table>
+			</div>
+
+			<div class="col-12 mt-5">
+				<h3 class="text-danger text-center">Table with caption(caption in down)</h3>
+				<table class="table table-sm">
+					<caption>List of Users</caption>
+					<thead>
+				    <tr>
+				      <th>#</th>
+				      <th >First</th>
+				      <th>Last</th>
+				      <th >Handle</th>
+				    </tr>
+				 </thead>
+				  <tbody>  
+				    <tr >
+				      <th>1</th>
+				      <td>Mark</td>
+				      <td>Otto</td>
+				      <td>@mdo</td>
+				    </tr>
+				    <tr>
+				      <th>2</th>
+				      <td>Jacob</td>
+				      <td>Thornton</td>
+				      <td>@fat</td>
+				    </tr>
+				  </tbody>
+				</table>
+			</div>
+
+			<div class="col-12 mt-5">
+				<h3 class="text-danger text-center">Table with caption(caption up)</h3>
+				<table class="table table-sm caption-top">
+					<caption>List of Users</caption>
+					<thead>
+				    <tr>
+				      <th>#</th>
+				      <th >First</th>
+				      <th>Last</th>
+				      <th >Handle</th>
+				    </tr>
+				 </thead>
+				  <tbody>  
+				    <tr >
+				      <th>1</th>
+				      <td>Mark</td>
+				      <td>Otto</td>
+				      <td>@mdo</td>
+				    </tr>
+				    <tr>
+				      <th>2</th>
+				      <td>Jacob</td>
+				      <td>Thornton</td>
+				      <td>@fat</td>
+				    </tr>
+				  </tbody>
+				</table>
+			</div>
+
+
+
+			
+		</div>
+	</div>
+
+</body>
+</html>

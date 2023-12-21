@@ -1,0 +1,28 @@
+.container{
+	border: 1px solid green;
+}
+
+.row{
+	border: 2px solid blueviolet;
+}
+
+
+.column{
+	border: 5px solid black;
+}
+
+
+.box{
+	background-color: red;
+	box-shadow: 5px 8px  10px blue !important;
+}
+
+.box1{
+	background-color: red;
+	box-shadow: 5px 8px  10px 10px blue !important;
+}
+
+.no-box{
+	background-color: red;
+	box-shadow: none;
+}

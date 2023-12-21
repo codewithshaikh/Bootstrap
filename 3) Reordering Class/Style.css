@@ -1,0 +1,28 @@
+.container{
+	border: 3px solid green;
+	height: 300px;
+}
+
+.row{
+	border: 3px solid red;
+}
+
+.Demo1{
+	background-color: yellow;
+	min-height: 150px;
+}
+
+.Demo2{
+	background-color:orange;
+	min-height: 150px;
+}
+
+.Demo3{
+	background-color: pink;
+	min-height: 150px;
+}
+
+.Demo4{
+	background-color: blue;
+	min-height: 150px;
+}

@@ -1,0 +1,13 @@
+.container{
+    margin-top: 15px;
+    border: 5px solid blue;
+}
+
+.row{
+    border: 5px solid cyan;
+}
+
+
+.col-12{
+    border: 3px solid orange;
+}

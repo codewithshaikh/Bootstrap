@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToolTips and popovers</title>
+
+    <link rel="stylesheet" type="text/css" href="E:\Soumodeep 1\6) BootStrap\bootstrap.css">
+	<link rel="stylesheet" href="Style.css">
+
+</head>
+<body>
+
+    <div class="container">
+<!-- ==================================================================================================================== -->
+        <div class="row">
+            <div class="col-12 text-center text-success display-6 my-3">
+                ToolTips Classes
+            </div>
+
+            <div class="col-12 text-center">
+                <h3 class="text-center text-danger">By Button Tag</h3>
+                <button type="button" class="btn btn-primary " data-bs-toggle="tooltip" data-bs-placement="top" title="tooltip on top">
+                    ToolTip on Top
+                </button>
+
+                <button type="button" class="btn btn-primary " data-bs-toggle="tooltip" data-bs-placement="bottom" title="tooltip on bottom">
+                    ToolTip on bottom
+                </button>
+
+                <button type="button" class="btn btn-primary " data-bs-toggle="tooltip" data-bs-placement="left" title="tooltip on left">
+                    ToolTip on left
+                </button>
+
+                <button type="button" class="btn btn-primary " data-bs-toggle="tooltip" data-bs-placement="right" title="tooltip on  right">
+                    ToolTip on right
+                </button>
+            </div>
+
+            <div class="col-12 my-5 text-center">
+                <h3 class="text-center text-warning">By Anchor Tag</h3>
+                <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Hooray!">Top</a>
+                <a href="#" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Hooray!">Bottom</a>
+                <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" title="Hooray!">Left</a>
+                <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="Hooray!">Right</a>
+            </div>
+
+
+            <div class="col-12 mt-3 mb-5 text-center">
+                <h3 class="text-center text-warning">By Button Tag and Own Custom</h3>
+                <button type="button" class="btn btn-primary " data-bs-toggle="tooltip" data-bs-placement="top" 
+                data-bs-custom-class="custom-tooltip" data-bs-title="This top tooltip is themed via CSS variables.">
+                    ToolTip on Top
+                </button>
+
+                <button type="button" class="btn btn-warning " data-bs-toggle="tooltip" data-bs-placement="bottom" 
+                data-bs-custom-class="custom-1tooltip" data-bs-title="This bottom tooltip is themed via CSS variables.">
+                    ToolTip on bottom
+                </button>
+
+                <button type="button" class="btn btn-info " data-bs-toggle="tooltip" data-bs-placement="left" 
+                data-bs-custom-class="custom-2tooltip" data-bs-title="This left tooltip is themed via CSS variables.">
+                    ToolTip on left
+                </button>
+
+                <button type="button" class="btn btn-secondary " data-bs-toggle="tooltip" data-bs-placement="right" 
+                data-bs-custom-class="custom-3tooltip" data-bs-title="This right tooltip is themed via CSS variables.">
+                    ToolTip on right
+                </button>
+            </div>
+        </div>
+   
+<!-- ======================================================================================================================== -->
+        <div class="row">
+            <div class="col-12 text-center text-success display-6">
+                Popover Classes
+            </div>
+
+            <div class="col-12 my-5 text-center">
+                <h3 class="text-center text-danger">By Button Tag</h3>
+                <button type="button" class="btn btn-danger btn-lg" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="This is popovers body" title="PopoverTitle">
+                     PopOvers Top
+                </button>
+
+                <button type="button" class="btn btn-danger btn-lg" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="This is popovers body" title="PopoverTitle">
+                     PopOvers Bottom
+                </button>
+
+                <button type="button" class="btn btn-danger btn-lg" data-bs-toggle="popover" data-bs-placement="left" data-bs-content="This is popovers body" title="PopoverTitle">
+                     PopOvers Left
+                </button>
+
+                <button type="button" class="btn btn-danger btn-lg" data-bs-toggle="popover" data-bs-placement="Right" data-bs-content="This is popovers body" title="PopoverTitle">
+                     PopOvers Right
+                </button>
+            </div>
+
+            <div class="col-12 text-center mb-3">
+                <h3 class="text-center text-warning">By Anchor Tag( and Dismissable Popover</h3>
+                <a href="#" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="This is popovers body" title="PopoverTitle" data-bs-trigger="focus">Top</a>
+                <a href="#" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="This is popovers body" title="PopoverTitle" data-bs-trigger="focus">bottom</a>
+                <a href="#" data-bs-toggle="popover" data-bs-placement="left" data-bs-content="This is popovers body" title="PopoverTitle" data-bs-trigger="focus">left</a>
+                <a href="#" data-bs-toggle="popover" data-bs-placement="right" data-bs-content="This is popovers body" title="PopoverTitle" data-bs-trigger="focus">right<a>
+            </div>
+
+
+            <div class="col-12 mt-3 mb-5 text-center">
+                <h3 class="text-center text-warning">By Button Tag and Own Custom</h3>
+                <button type="button" class="btn btn-danger btn-lg" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="This is popovers body" 
+                title="PopoverTitle" data-bs-custom-class="custom-popover">
+                     PopOvers Top
+                </button>
+
+                <button type="button" class="btn btn-danger btn-lg" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="This is popovers body" 
+                title="PopoverTitle" data-bs-custom-class="custom-1popover">
+                     PopOvers Bottom
+                </button>
+
+                <button type="button" class="btn btn-danger btn-lg" data-bs-toggle="popover" data-bs-placement="left" data-bs-content="This is popovers body" 
+                title="PopoverTitle" data-bs-custom-class="custom-2popover">
+                     PopOvers Left
+                </button>
+
+                <button type="button" class="btn btn-danger btn-lg" data-bs-toggle="popover" data-bs-placement="Right" data-bs-content="This is popovers body" 
+                title="PopoverTitle" data-bs-custom-class="custom-3popover">
+                     PopOvers Right
+                </button>
+            </div>
+        </div>
+<!-- ====================================================================================================== -->
+
+    </div>      <!--container Ending -->
+
+
+
+
+
+
+    
+    <!-- Boostrap 5 offline CDN link -->
+    <script src="E:\Soumodeep 1\6) BootStrap\bootstrap.bundle.js"></script>
+    
+    <script type="text/javascript">
+         // Boostrap 5 Tooltip Script (Compulsory) 
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+
+
+         // Boostrap 5 Popover Script (Compulsory) 
+        const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+        const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+    </script>
+        
+
+
+</body>
+</html>

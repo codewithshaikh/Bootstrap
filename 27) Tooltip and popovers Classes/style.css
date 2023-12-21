@@ -1,0 +1,65 @@
+.container{
+	border: 5px solid green;
+}
+
+.row{
+	border: 3px solid cyan;
+}
+
+button{
+	margin-left: 15px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+a{
+	font-size: 20px;
+	margin-left: 15px;
+	text-decoration: none;
+}
+
+/* Css For Custom tooltip */
+
+.custom-tooltip{
+	--bs-tooltip-bg: var(--bs-primary);
+}
+
+.custom-1tooltip{
+	--bs-tooltip-bg :var(--bs-secondary);
+}
+
+.custom-2tooltip{
+	--bs-tooltip-bg: var(--bs-success);
+}
+
+.custom-3tooltip{
+	--bs-tooltip-bg: var(--bs-danger);
+}
+
+
+/* Css For Custom popover */
+
+.custom-popover {
+  --bs-popover-border-color: var(--bs-primary);
+  --bs-popover-header-bg: var(--bs-primary);
+  --bs-popover-header-color: var(--bs-white);
+}
+
+
+.custom-1popover{
+  --bs-popover-border-color: var(--bs-info);
+  --bs-popover-header-bg: var(--bs-info);
+  --bs-popover-header-color: var(--bs-white);
+}
+
+.custom-2popover{
+  --bs-popover-border-color: var(--bs-success);
+  --bs-popover-header-bg: var(--bs-success);
+  --bs-popover-header-color: var(--bs-white);
+}
+
+.custom-3popover{
+  --bs-popover-border-color: var(--bs-warning);
+  --bs-popover-header-bg: var(--bs-warning);
+  --bs-popover-header-color: var(--bs-white);
+}

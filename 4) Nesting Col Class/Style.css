@@ -1,0 +1,64 @@
+.container{
+	border: 3px solid green;
+	height: 330px;
+}
+
+
+.row{
+	border: 3px solid red;
+}
+
+.Demo1{
+	background-color: yellow;
+	min-height: 150px;
+	color: white;
+
+}
+
+.Demo2{
+	background-color:orange;
+	min-height: 150px;
+	color: white;
+
+}
+
+.Demo3{
+	background-color: pink;
+	min-height: 150px;
+	color: white;
+
+}
+
+.Demo4{
+	background-color: blue;
+	min-height: 150px;
+	color: white;
+
+}
+
+.Demo5{
+	background-color:green;
+	min-height: 150px;
+	color: white;
+}
+
+.Demo6{
+	background-color:black;
+	color: white;
+	min-height: 150px;
+}
+
+.Demo7{
+	background-color: purple;
+	min-height: 150px;
+	color: white;
+
+}
+
+.Demo8{
+	background-color:lightblue;
+	min-height: 150px;
+	color: white;
+
+}
+

@@ -1,0 +1,16 @@
+.container{
+	border: 5px solid green;
+}
+
+.row{
+	border: 3px solid cyan;
+}
+
+.carousel-item img{
+	height: 500px;
+}
+
+.carousel-caption h5{
+	color:ghostwhite;
+	font-size: 30px;
+}

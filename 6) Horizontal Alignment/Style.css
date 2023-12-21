@@ -1,0 +1,60 @@
+.container{
+    margin-top: 15px;
+    border: 5px solid green;
+}
+
+.row{
+    border: 3px solid cyan;
+}
+
+.Demo1{
+    color: white;
+    background-color:#fc5e03;
+    min-height: 50px;
+}
+
+.Demo2{
+    min-height: 50px;
+    background-color: #0380fc;
+    color: white;
+}
+
+.Demo3{
+    background-color:#196142;
+    min-height: 50px;
+}
+
+.Demo4{
+    color: white;
+    background-color: rgb(111, 0, 255);
+}
+
+.Demo5{
+
+    background-color: pink;
+}
+
+.Demo6{
+
+    
+    background-color:greenyellow;
+}
+
+.Demo7{
+
+    color: white;
+    background-color: black;
+}
+
+.Demo8{
+    min-height: 250px;
+    color: white;
+    background-color:orangered;
+}
+
+.Demo9{
+    min-height: 250px;
+    color: white;
+    background-color:rosybrown ;
+}
+
